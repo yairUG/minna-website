@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `\n${message}`
       ].filter(Boolean).join('\n');
 
-      window.location.href = `mailto:placeholder@example.com?subject=Confidential Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
+      window.location.href = `mailto:minnafeliglaw@gmail.com?subject=Confidential Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
     });
   }
 

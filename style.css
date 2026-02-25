@@ -215,7 +215,38 @@ body {
   margin-top: 8px;
 }
 
-/* PHOTO PLACEHOLDERS */
+/* REAL PHOTO FRAMES */
+.photo-frame {
+  overflow: hidden;
+  background: var(--offwhite);
+}
+
+.photo-frame.portrait {
+  width: 100%;
+  aspect-ratio: 3/4;
+  max-height: 540px;
+}
+
+.photo-frame.secondary {
+  width: 100%;
+  aspect-ratio: 4/5;
+  max-height: 460px;
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.photo-frame:hover img {
+  transform: scale(1.02);
+}
+
+/* PHOTO PLACEHOLDERS (for sections without images yet) */
 .photo-placeholder {
   background: var(--offwhite);
   border: 1px solid var(--border);
@@ -223,12 +254,6 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-}
-
-.photo-placeholder.portrait {
-  width: 100%;
-  aspect-ratio: 3/4;
-  max-height: 520px;
 }
 
 .photo-placeholder.office,
@@ -246,9 +271,9 @@ body {
   text-align: center;
 }
 
-.placeholder-icon svg {
+.placeholder-inner svg {
   width: 60px;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .placeholder-inner p {
@@ -316,6 +341,13 @@ body {
    ============================================= */
 .section-inner {
   max-width: 720px;
+}
+
+.about-inner {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 80px;
+  align-items: center;
 }
 
 .about-text p {
@@ -520,19 +552,25 @@ body {
 }
 
 .testimonial-card cite {
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
   font-style: normal;
-  text-transform: uppercase;
 }
 
-.testimonials-note {
-  font-size: 0.8rem;
+.cite-name {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--dark);
+  letter-spacing: 0.05em;
+}
+
+.cite-title {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
   color: var(--muted);
-  font-style: italic;
-  text-align: center;
+  letter-spacing: 0.04em;
 }
 
 /* =============================================
@@ -571,6 +609,46 @@ body {
   font-weight: 300;
   line-height: 1.75;
   margin-top: 8px;
+  margin-bottom: 36px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.contact-detail:last-child {
+  border-bottom: none;
+}
+
+.contact-detail-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.contact-detail-value {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--dark);
+  transition: color 0.2s;
+}
+
+.contact-detail:hover .contact-detail-value {
+  color: var(--accent);
 }
 
 .contact-form {
@@ -697,6 +775,8 @@ body {
 @media (max-width: 1024px) {
   .hero-content { grid-template-columns: 1fr; gap: 60px; }
   .hero-photo { max-width: 340px; }
+  .about-inner { grid-template-columns: 1fr; gap: 48px; }
+  .about-photo { max-width: 340px; }
   .companies-inner { grid-template-columns: 1fr; }
   .companies-photo { max-width: 400px; }
   .experience-inner { grid-template-columns: 1fr; }
