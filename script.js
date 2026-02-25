@@ -12,7 +12,7 @@ const translations = {
     'nav.experience':'Experience',
     'nav.contact':   'Contact',
 
-    'hero.headline':      'Strategic Legal Recruitment<br />and Career Advisory in Israel',
+    'hero.headline':      'Minna Felig Legal Services Consulting',
     'hero.sub':           'For over 25 years, I have advised international companies, high-tech legal departments, and lawyers on building strong legal teams and navigating career transitions.',
     'hero.cta':           'Schedule a Confidential Consultation',
     'hero.btn.companies': 'For Companies',
@@ -27,7 +27,7 @@ const translations = {
     'companies.label':   'For Companies',
     'companies.heading': 'For Companies',
     'companies.intro':   'I advise international and high-tech companies operating in Israel on building and strengthening their legal teams.',
-    'companies.s1':      'Executive Legal Recruitment',
+    'companies.s1':      'Legal Recruitment at All Levels',
     'companies.s2':      'General Counsel and Senior In-House Placements',
     'companies.s3':      'Strategic Legal Team Building',
     'companies.s4':      'Market Intelligence and Advisory',
