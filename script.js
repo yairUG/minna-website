@@ -13,7 +13,7 @@ const translations = {
     'nav.contact':   'Contact',
 
     'hero.headline':      'Strategic Legal Recruitment<br />and Career Advisory in Israel',
-    'hero.sub':           'For over 25 years, I have advised international companies, high-tech legal departments, and senior lawyers on building strong legal teams and navigating meaningful career transitions.',
+    'hero.sub':           'For over 25 years, I have advised international companies, high-tech legal departments, and lawyers on building strong legal teams and navigating career transitions.',
     'hero.cta':           'Schedule a Confidential Consultation',
     'hero.btn.companies': 'For Companies',
     'hero.btn.lawyers':   'For Lawyers',
@@ -21,10 +21,8 @@ const translations = {
     'about.label':   'About',
     'about.heading': 'About',
     'about.p1': 'For more than 25 years, I have worked exclusively in the Israeli legal market.',
-    'about.p2': 'As the founder of Israel\'s first legal recruitment business, I have advised hundreds of companies and senior legal professionals on strategic growth and career decisions.',
-    'about.p3': 'My background includes legal training and experience in New York, which allows me to bring both international perspective and deep local knowledge to every engagement.',
-    'about.p4': 'I work personally with each client. I listen carefully, assess realistically, and provide clear strategic guidance — even when the truth is difficult.',
-    'about.p5': 'My approach is discreet, thoughtful, and practical.',
+    'about.p2': 'As the founder of Israel\'s first legal recruitment business, I have advised hundreds of companies and legal professionals on strategic growth and career decisions.',
+    'about.p3': 'My background includes legal training and experience in New York — giving me both international perspective and deep local knowledge. I work personally with each client, with discretion and a practical approach.',
 
     'companies.label':   'For Companies',
     'companies.heading': 'For Companies',
@@ -38,23 +36,23 @@ const translations = {
 
     'lawyers.label':   'For Lawyers',
     'lawyers.heading': 'For Lawyers',
-    'lawyers.intro':   'I work with mid-level and senior lawyers seeking clarity, direction, and meaningful career progression.',
+    'lawyers.intro':   'I work with mid-level lawyers seeking clarity, direction, and meaningful career progression.',
     'lawyers.s1':      'Confidential Career Transitions',
     'lawyers.s2':      'Strategic Career Positioning',
     'lawyers.s3':      'Resume Optimization for Modern Recruitment Systems',
     'lawyers.s4':      'Navigating AI-Driven Screening Processes',
-    'lawyers.para':    'Today\'s hiring landscape is increasingly automated. I help professionals position themselves effectively while maintaining their individuality and long-term career goals.',
+    'lawyers.para':    'Today\'s hiring landscape is increasingly automated. I help lawyers position themselves effectively while staying true to their long-term goals.',
 
     'exp.label':            'Experience',
     'exp.heading':          'Experience',
     'exp.years.label':      'years in the Israeli legal market',
-    'exp.placements.label': 'senior legal placements',
+    'exp.placements.label': 'legal placements',
     'exp.detail1':          'Experience advising on law firm mergers and practice integrations.',
     'exp.detail2':          'Specialization in international and high-tech companies.',
     'exp.engagements':      'Selected Engagements',
     'exp.e1':               'Facilitated a merger between a mid-sized banking firm and a major firm',
     'exp.e2':               'Integrated a niche legal practice into a leading law firm',
-    'exp.e3':               'Placed senior professionals into international corporations and major Israeli firms',
+    'exp.e3':               'Placed professionals into international corporations and major Israeli firms',
     'exp.photo':            'Photo coming soon',
 
     'test.label':   'Testimonials',
@@ -84,7 +82,7 @@ const translations = {
     'contact.ph.phone':      '+972',
     'contact.ph.message':    'How can I help you?',
 
-    'footer.tagline': 'Strategic Legal Recruitment & Career Advisory · Israel',
+    'footer.tagline': 'Minna Felig Legal Services Consulting · Israel',
   },
 
   he: {
@@ -96,7 +94,7 @@ const translations = {
     'nav.contact':   'צור קשר',
 
     'hero.headline':      'גיוס משפטי אסטרטגי<br />וייעוץ קריירה בישראל',
-    'hero.sub':           'במשך יותר מ-25 שנה, ייעצתי לחברות בינלאומיות, מחלקות משפטיות בהייטק, ועורכי דין בכירים על בניית צוותים משפטיים חזקים וניווט במעברי קריירה משמעותיים.',
+    'hero.sub':           'במשך יותר מ-25 שנה, ייעצתי לחברות בינלאומיות, מחלקות משפטיות בהייטק, ועורכי דין על בניית צוותים משפטיים חזקים וניווט במעברי קריירה.',
     'hero.cta':           'קבע ייעוץ חסוי',
     'hero.btn.companies': 'לחברות',
     'hero.btn.lawyers':   'לעורכי דין',
@@ -104,10 +102,8 @@ const translations = {
     'about.label':   'אודות',
     'about.heading': 'אודות',
     'about.p1': 'במשך יותר מ-25 שנה, עבדתי באופן בלעדי בשוק המשפטי הישראלי.',
-    'about.p2': 'כמייסדת עסק הגיוס המשפטי הראשון בישראל, ייעצתי למאות חברות ואנשי מקצוע משפטיים בכירים על צמיחה אסטרטגית והחלטות קריירה.',
-    'about.p3': 'הרקע שלי כולל הכשרה משפטית וניסיון בניו יורק, המאפשר לי להביא גם פרספקטיבה בינלאומית וגם ידע מקומי עמוק לכל מעורבות.',
-    'about.p4': 'אני עובדת באופן אישי עם כל לקוח. אני מקשיבה בקפידה, מעריכה בצורה ריאליסטית, ומספקת הנחיה אסטרטגית ברורה — גם כשהאמת קשה.',
-    'about.p5': 'הגישה שלי היא שיקול דעת, מחשבה מעמיקה ופרקטיות.',
+    'about.p2': 'כמייסדת עסק הגיוס המשפטי הראשון בישראל, ייעצתי למאות חברות ואנשי מקצוע משפטיים על צמיחה אסטרטגית והחלטות קריירה.',
+    'about.p3': 'הרקע שלי כולל הכשרה משפטית וניסיון בניו יורק — מה שמאפשר לי להביא גם פרספקטיבה בינלאומית וגם ידע מקומי עמוק. אני עובדת באופן אישי עם כל לקוח, בשיקול דעת ובגישה פרקטית.',
 
     'companies.label':   'לחברות',
     'companies.heading': 'לחברות',
@@ -121,23 +117,23 @@ const translations = {
 
     'lawyers.label':   'לעורכי דין',
     'lawyers.heading': 'לעורכי דין',
-    'lawyers.intro':   'אני עובדת עם עורכי דין ברמה בינונית ובכירה המחפשים בהירות, כיוון והתקדמות קריירה משמעותית.',
+    'lawyers.intro':   'אני עובדת עם עורכי דין ברמה בינונית המחפשים בהירות, כיוון והתקדמות קריירה משמעותית.',
     'lawyers.s1':      'מעברי קריירה חסויים',
     'lawyers.s2':      'מיצוב קריירה אסטרטגי',
     'lawyers.s3':      'אופטימיזציה של קורות חיים למערכות גיוס מודרניות',
     'lawyers.s4':      'ניווט בתהליכי סינון מבוססי בינה מלאכותית',
-    'lawyers.para':    'נוף הגיוס של היום הופך לאוטומטי יותר ויותר. אני עוזרת לאנשי מקצוע למצב את עצמם ביעילות תוך שמירה על אינדיבידואליות ומטרות קריירה לטווח ארוך.',
+    'lawyers.para':    'נוף הגיוס של היום הופך לאוטומטי יותר ויותר. אני עוזרת לעורכי דין למצב את עצמם ביעילות תוך שמירה על מטרות קריירה לטווח ארוך.',
 
     'exp.label':            'ניסיון',
     'exp.heading':          'ניסיון',
     'exp.years.label':      'שנות ניסיון בשוק המשפטי הישראלי',
-    'exp.placements.label': 'מיקומים משפטיים בכירים',
+    'exp.placements.label': 'מיקומים משפטיים',
     'exp.detail1':          'ניסיון בייעוץ על מיזוגי משרדי עורכי דין ואינטגרציות פרקטיקה.',
     'exp.detail2':          'התמחות בחברות בינלאומיות וחברות הייטק.',
     'exp.engagements':      'מעורבויות נבחרות',
     'exp.e1':               'הובלת מיזוג בין משרד בנקאות בינוני לבין משרד מוביל',
     'exp.e2':               'שילוב פרקטיקה משפטית ייחודית לתוך משרד עורכי דין מוביל',
-    'exp.e3':               'מיקום אנשי מקצוע בכירים בתאגידים בינלאומיים ובמשרדים ישראליים מובילים',
+    'exp.e3':               'מיקום אנשי מקצוע בתאגידים בינלאומיים ובמשרדים ישראליים מובילים',
     'exp.photo':            'תמונה בקרוב',
 
     'test.label':   'המלצות',
@@ -167,7 +163,7 @@ const translations = {
     'contact.ph.phone':      '+972',
     'contact.ph.message':    'איך אוכל לעזור לך?',
 
-    'footer.tagline': 'גיוס משפטי אסטרטגי וייעוץ קריירה · ישראל',
+    'footer.tagline': 'מינה פליג ייעוץ שירותים משפטיים · ישראל',
   }
 };
 
@@ -350,7 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `\n${message}`
       ].filter(Boolean).join('\n');
 
-      window.location.href = `mailto:minnafeliglaw@gmail.com?subject=Confidential Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
+      window.location.href = `mailto:minnafelig@gmail.com?subject=Confidential Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
     });
   }
 
